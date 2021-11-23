@@ -1,17 +1,17 @@
 body {
-  background-color:rgb(87, 86, 86);
   margin: 50px;
   margin-right: 100px;
+  background-color: #141f27;
 }
 
-#bloco {
-  position: absolute;
+.bloco {
+  position: fixed;
   left: 50px;
   right: 50px;
   top: 50px;
   width: 91%;
   height: 88%;
-  background: rgba(88, 88, 90, 0);
+  background-color:#1b384a;
   border-style:groove;
   border-radius: 10px;
   border-color: black;
@@ -32,22 +32,23 @@ h1 {
   top: 160px;
   width: 600px;
   height: 5px;
-  background: rgba(0, 26, 255, 0.336);
+  background: #206f98;
 }
 
 #foto {
-  position: absolute;
-  border-radius: 25%;
+  position: relative;
+  border-radius: 30%;
   border-style: inset;
   border-width: medium;
   border-color: rgb(0, 0, 0);
-  margin-left: 70px;
-  margin-top: 3cm;
-  width: 350px;
+  margin: 50px;
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 280px;
 }
 
 .texto{
-  font-size: 25px;
+  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
@@ -56,7 +57,7 @@ h1 {
   padding-right: 5cm;
   position: absolute;
   left: 500px;
-  top: 200px;
+  top: 220px;
 }
 
 #habilidades{
