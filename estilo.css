@@ -56,7 +56,7 @@ h1 {
   color: rgb(29, 161, 242);
 }
 
-#conexoes{
+.conexoes{
   position: relative;
   border:solid black;
   background-color:#243447;
@@ -64,7 +64,7 @@ h1 {
   margin: 5px auto ;
 }
 
-#conexoes h2{
+.conexoes h2{
   color: white;
   font-family:monospace;
   margin-left: 10px;
@@ -77,4 +77,12 @@ h1 {
   display: inline-block;
   left: 200px;
   top: 5px;
+}
+
+#Linkedin{
+  position: absolute;
+  width: 150px;
+  display: inline;
+  left: 450px; 
+  top: 4px
 }
