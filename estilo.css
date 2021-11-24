@@ -3,57 +3,86 @@ body {
 }
 
 h1 {
-  position: absolute;
+  position: relative;
   left: 600px;
-  top: 100px;
+  top: 50px;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: monospace;
   width: 500px;
 }
 
-#retangulo {
-  position: absolute;
+#separador {
+  position: relative;
   left: 530px;
-  top: 160px;
+  top: 30px;
   width: 600px;
   height: 5px;
-  background: #206f98;
+  background: rgb(29, 161, 242);
 }
 
 #foto {
   position: relative;
   border-radius: 30%;
-  border-style: inset;
+  border-style:solid;
   border-width: medium;
   border-color: rgb(0, 0, 0);
   margin: 50px;
-  margin-top: 100px;
-  margin-left: 100px;
+  margin-top: 0px;
+  margin-left: 60px;
   width: 280px;
 }
 
 #geral{
   border:solid black;
   background-color:#243447;
-  width: 1340px;
+  width: 1300px;
   margin-top: 40px;
+  margin: auto;
+  height: 500px;
 }
 
-.texto{
+.informacoes{
   position:absolute;
   font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: monospace;
   color: white;
   width: 900px;
   margin-left: 410px;
-  top: 200px;
+  top: 150px;
+  line-height: 30px;
 }
 
-
-.texto a{
-  color: blue;
+.informacoes a{
+  color: rgb(29, 161, 242);
 }
 
-a:hover{
-  background-color: rgb(69, 100, 240);
+.conexoes{
+  position: relative;
+  border:solid black;
+  background-color:#243447;
+  width: 1300px;
+  margin: 5px auto ;
+}
+
+.conexoes h2{
+  color: white;
+  font-family:monospace;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+#Github{
+  position: absolute;
+  width: 200px;
+  display: inline-block;
+  left: 200px;
+  top: 5px;
+}
+
+#Linkedin{
+  position: absolute;
+  width: 150px;
+  display: inline;
+  left: 450px; 
+  top: 4px
 }
